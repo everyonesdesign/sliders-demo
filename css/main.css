@@ -1,0 +1,42 @@
+.container {
+    width: 960px;
+    padding: 0 20px 20px;
+    margin: auto;
+    border-top: 10px solid #3f963b;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+}
+
+.slider-container {
+    position: relative;
+    margin: 20px 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.effect-tags-container .effect-tag {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #222;
+    background: #ddd;
+    padding: 4px 6px;
+    vertical-align: middle;
+    text-decoration: none;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.effect-tags-container .effect-tag.error {
+    color: #fff;
+    background: #df5c3d;
+}
+
+.effect-tags-container .effect-tag.active {
+    color: #fff;
+    background: #3f963b;
+}
+
+.error-text {
+    color: #df5c3d;
+}
+

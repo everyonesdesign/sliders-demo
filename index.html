@@ -1,26 +1,74 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="sliders/nivo-slider/nivo-slider.css">
+    <link rel="stylesheet" href="sliders/nivo-slider/default.css">
+
+</head>
+<body class="theme-default">
+
+<div class="wrapper">
+    <div class="container">
+        <h2>NIVO Slider</h2>
+        <div class="slider-container nivo-slider-container">
+            <div class="slider-wrapper theme-default">
+                <div class="ribbon"></div>
+                <div id="nivoSlider" class="nivoSlider">
+                    <img src="img/pic1.jpg" alt=""/>
+                    <img src="img/pic2.jpg" alt=""/>
+                    <img src="img/pic3.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="effect-tags-container">
+                <h3>Доступные эффекты слайдера (кликните для просмотра):</h3>
+                <a href="javascript:void(0);" class="effect-tag">sliceDown</a>
+                <a href="javascript:void(0);" class="effect-tag">sliceDownLeft</a>
+                <a href="javascript:void(0);" class="effect-tag">sliceUp</a>
+                <a href="javascript:void(0);" class="effect-tag">sliceUpLeft</a>
+                <a href="javascript:void(0);" class="effect-tag">sliceUpDown</a>
+                <a href="javascript:void(0);" class="effect-tag">sliceUpDownLeft</a>
+                <a href="javascript:void(0);" class="effect-tag">fold</a>
+                <a href="javascript:void(0);" class="effect-tag">fade</a>
+                <a href="javascript:void(0);" class="effect-tag">slideInRight</a>
+                <a href="javascript:void(0);" class="effect-tag">slideInLeft</a>
+                <a href="javascript:void(0);" class="effect-tag">boxRain</a>
+                <a href="javascript:void(0);" class="effect-tag">boxRainReverse</a>
+                <a href="javascript:void(0);" class="effect-tag">boxRainGrow</a>
+                <a href="javascript:void(0);" class="effect-tag">boxRainGrowReverse</a>
+                <div><small>Возможен выбор набора эффектов</small></div>
+                <div><small>Выделенные <span class="error-text">красным</span> цветом эффекты слайдера могут воспроизводиться некорректно в текущей версии слайдера</small></div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 
-        <!--Scripts beginning-->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="js/main.js"></script>
-        <!--Scripts end-->
-    </body>
+<!--Scripts beginning-->
+<script src="js/jquery.js"></script>
+
+<script type="text/javascript" src="sliders/nivo-slider/jquery.nivo.slider.pack.js"></script>
+
+<script src="js/main.js"></script>
+<!--Scripts end-->
+
+</body>
 </html>
