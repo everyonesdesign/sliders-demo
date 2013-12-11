@@ -17,7 +17,7 @@ $(window).load(function() {
 //Nivo slider
 $(window).load(function() {
     $('#nivoSlider').nivoSlider({
-        effect:"sliceDown,sliceDownLeft,sliceUp,sliceUpLeft,sliceUpDown,sliceUpDownLeft,fold,fade,slideInRight,slideInLeft",
+        effect:"random",
         slices:15,
         boxCols:8,
         boxRows:4,
